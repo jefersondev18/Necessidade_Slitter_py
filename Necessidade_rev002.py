@@ -12,8 +12,8 @@ if SO == 'Windows':
     BASE_INPUT  = r'C:\Users\jefersson.souza\OneDrive - Açotel Indústria e Comércio LTDA\#PCP\Necessidade - Slitter\Files\input'
     BASE_OUTPUT = r'C:\Users\jefersson.souza\OneDrive - Açotel Indústria e Comércio LTDA\#PCP\Necessidade - Slitter\Files\output'
 else:
-    BASE_INPUT  = r'/home/stark/Documentos/Dev/Necessidade - Slitter_py/Files/input'
-    BASE_OUTPUT = r'/home/stark/Documentos/Dev/Necessidade - Slitter_py/Files/output'
+    BASE_INPUT  = r'/home/stark/Documentos/Dev/Necessidade_Slitter_py/Files/input/'
+    BASE_OUTPUT = r'/home/stark/Documentos/Dev/Necessidade_Slitter_py/Files/output'
 
 print(f"Sistema Operacional: {SO}")
 
