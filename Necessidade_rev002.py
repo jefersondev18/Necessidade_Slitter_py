@@ -8,6 +8,16 @@ SO = platform.system()
 # 1. CARGA DOS ARQUIVOS
 # =============================================================================
 
+def get_current_user():
+    if SO == 'Windows':
+        return os.getenv('USERNAME')
+    else:
+        return os.getenv('USER')
+
+USUARIO = get_current_user()
+print(f"Usuário: {USUARIO}")
+
+
 if SO == 'Windows':
     BASE_INPUT  = r'C:\Users\jefersson.souza\OneDrive - Açotel Indústria e Comércio LTDA\#PCP\Necessidade - Slitter\Files\input'
     BASE_OUTPUT = r'C:\Users\jefersson.souza\OneDrive - Açotel Indústria e Comércio LTDA\#PCP\Necessidade - Slitter\Files\output'
